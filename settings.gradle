@@ -10,8 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
-        maven { url 'https://maven.google.com' }
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { setUrl("https://jitpack.io") }
     }
 }
 rootProject.name = "VideoCallApp"
